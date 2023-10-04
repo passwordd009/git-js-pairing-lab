@@ -6,7 +6,7 @@ const fiveToOneHundred = () => {
         console.log(i);
     }
 }
-console.log(fiveToOneHundred());
+// console.log(fiveToOneHundred());
 
 //problem 2
 const multiplesOfThree =() => {
@@ -18,4 +18,16 @@ const multiplesOfThree =() => {
         }
     } 
 }
-console.log(multiplesOfThree())
+// console.log(multiplesOfThree())
+
+//problem 3
+
+const multiplesOfThreeOrFive = () => {
+    for(let i = 0; i <= 100; i++){
+        if(i % 3 === 0 || i % 5 === 0){
+            console.log(i)
+        }
+    }
+}
+
+// console.log(multiplesOfThreeOrFive());
