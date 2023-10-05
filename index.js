@@ -45,7 +45,7 @@ const  multiply = (num1, num2) => {
     return num1 * num2
 };
 
-console.log(multiply(2,4));
+// console.log(multiply(2,4));
 
 //problem 6
 const add = (num1, num2) => {
@@ -61,3 +61,25 @@ console.log(add(2, 4));
 console.log(add(5, 5));
 
 
+// console.log(add(2, 4));
+// console.log(add(5, 5));
+
+const isNegative = (num) => {
+    if( num < 0){
+        return true
+    } else {
+        return false 
+    }
+}
+
+console.log(isNegative(Math.PI));
+
+// Problem 8 
+const triangleArea = (num1, num2) => {
+if (num1 >=1 && num2>=1) {
+    x = num1*num2;
+    return x / 2; 
+}
+}
+console.log(triangleArea(5,7))
+console.log(triangleArea(6,8))
