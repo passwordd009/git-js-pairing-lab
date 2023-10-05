@@ -38,7 +38,7 @@ const untilNum = (num) =>{
         console.log(i);
     }
 };
-console.log(untilNum(7));
+// console.log(untilNum(7));
 
 // problem 5
 const  multiply = (num1, num2) => {
@@ -57,13 +57,13 @@ const add = (num1, num2) => {
 }
 }
 
-console.log(add(2, 4));
-console.log(add(5, 5));
+// console.log(add(2, 4));
+// console.log(add(5, 5));
 
 
 // console.log(add(2, 4));
 // console.log(add(5, 5));
-
+//problem 7
 const isNegative = (num) => {
     if( num < 0){
         return true
@@ -72,7 +72,7 @@ const isNegative = (num) => {
     }
 }
 
-console.log(isNegative(Math.PI));
+// console.log(isNegative(Math.PI));
 
 // Problem 8 
 const triangleArea = (num1, num2) => {
@@ -81,5 +81,20 @@ if (num1 >=1 && num2>=1) {
     return x / 2; 
 }
 }
-console.log(triangleArea(5,7))
-console.log(triangleArea(6,8))
+// console.log(triangleArea(5,7))
+// console.log(triangleArea(6,8))
+
+//Problem 9 
+
+const betweenTwentyAndFourty = (num) => {
+    if(num > 20 && num < 40){
+      return true
+    }else {
+      return false
+    }
+  }
+  
+  console.log(betweenTwentyAndFourty(4));
+  console.log(betweenTwentyAndFourty(21));
+  console.log(betweenTwentyAndFourty(99));
+  console.log(betweenTwentyAndFourty(101));
