@@ -45,7 +45,7 @@ const  multiply = (num1, num2) => {
     return num1 * num2
 };
 
-console.log(multiply(2,4));
+// console.log(multiply(2,4));
 
 //problem 6
 const add = (num1, num2) => {
@@ -57,5 +57,15 @@ const add = (num1, num2) => {
 }
 }
 
-console.log(add(2, 4));
-console.log(add(5, 5));
+// console.log(add(2, 4));
+// console.log(add(5, 5));
+
+const isNegative = (num) => {
+    if( num < 0){
+        return true
+    } else {
+        return false 
+    }
+}
+
+console.log(isNegative(Math.PI));
